@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+text-align: center;
+}
+
+.searchbox {
+    text-align: center;
+    margin: 25px;
+}
+
+.searchbox input {
+    width: 500px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: #ccc 2px solid;
+}
+
+.gallery {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: 200px;
+    justify-content: center;
+}
+
